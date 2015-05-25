@@ -12,6 +12,12 @@ void Screen::displayMessageLine(string message) const
 	cout << message << endl;
 }
 
+
+void Screen::displayquestion(string message) const
+{
+	cout << message;
+}
+
 void Screen::displayTableTile() const
 {
 	cout << setw(5) << "Product ID" << "    " << left

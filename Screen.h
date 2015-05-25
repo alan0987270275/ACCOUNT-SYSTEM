@@ -10,6 +10,7 @@ class Screen
 {
 public:
 	void displayTile() const;
+	void displayquestion(string) const;
 	void displayMessageLine(string) const;
 	void displayTableTile() const;
 	void displayTable(int, string, int, int, string, string) const;

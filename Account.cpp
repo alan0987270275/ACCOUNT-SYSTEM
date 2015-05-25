@@ -1,7 +1,8 @@
 #include"Account.h"
 
 int Account::checkcount(0);
-Account::Account(string theID, string thepassword, string thename, string theIDNumber, string theEmail, string thephone, string theaddress)
+Account::Account(string theID, string thepassword, string thename, string theIDNumber, 
+	string theEmail, string thephone, string theaddress)
 :ID(theID), password(thepassword), name(thename), IDNumber(theIDNumber), Email(theEmail), phone(thephone), address(theaddress)
 {
 }

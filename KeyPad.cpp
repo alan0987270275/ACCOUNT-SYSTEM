@@ -3,9 +3,9 @@
 
 int Keypad::getnumberinput()
 {
-	int numberdata;
-	cin >> numberdata;
-	return numberdata;
+	int datanumber;
+	cin >> datanumber;
+	return datanumber;
 }
 
 string Keypad::getwordinput()
